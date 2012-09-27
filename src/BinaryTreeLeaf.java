@@ -1,5 +1,3 @@
-
-
 import java.util.List;
 
 /**
@@ -7,44 +5,47 @@ import java.util.List;
  * @param <E> The type we're storing.
  */
 public class BinaryTreeLeaf<E> implements BinaryTree<E> {
-	
-	public BinaryTreeLeaf(E val){
-		// TODO write me
-		throw new RuntimeException("Not yet implemented.");
-	}
-	
-	@Override
-	/** @see BinaryTree#getValue() */
-	public E getValue() {
-		// TODO write me
-		throw new RuntimeException("Not yet implemented.");
-	}
+    /**
+     * Creates a new {@link BinaryTreeLeaf}.
+     * @param value The value.
+     */
+    public BinaryTreeLeaf(E value) {
+        // TODO write me
+        throw new RuntimeException("Not yet implemented.");
+    }
 
-	@Override
-	/** @see BinaryTree#getLeft() */
-	public BinaryTree<E> getLeft() {
-		// TODO write me
-		throw new RuntimeException("Not yet implemented.");
-	}
+    @Override
+    /** @see BinaryTree#getValue() */
+    public E getValue() {
+        // TODO write me
+        throw new RuntimeException("Not yet implemented.");
+    }
 
-	@Override
-	/** @see BinaryTree#getRight() */
-	public BinaryTree<E> getRight() {
-		// TODO write me
-		throw new RuntimeException("Not yet implemented.");
-	}
+    @Override
+    /** @see BinaryTree#getLeft() */
+    public BinaryTree<E> getLeft() {
+        // TODO write me
+        throw new RuntimeException("Not yet implemented.");
+    }
 
-	@Override
-	/** @see BinaryTree#getInOrder() */
-	public List<E> getInOrder() {
-		// TODO write me
-		throw new RuntimeException("Not yet implemented.");
-	}
+    @Override
+    /** @see BinaryTree#getRight() */
+    public BinaryTree<E> getRight() {
+        // TODO write me
+        throw new RuntimeException("Not yet implemented.");
+    }
 
-	@Override
-	/** @see BinaryTree#getPreOrder() */
-	public List<E> getPreOrder() {
-		// TODO write me
-		throw new RuntimeException("Not yet implemented.");
-	}
+    @Override
+    /** @see BinaryTree#getInOrder() */
+    public List<E> getInOrder() {
+        // TODO write me
+        throw new RuntimeException("Not yet implemented.");
+    }
+
+    @Override
+    /** @see BinaryTree#getPreOrder() */
+    public List<E> getPreOrder() {
+        // TODO write me
+        throw new RuntimeException("Not yet implemented.");
+    }
 }
