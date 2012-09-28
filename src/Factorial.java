@@ -3,8 +3,8 @@
  */
 public class Factorial {
     /**
-     * Computes the {@code n}! (n factorial).  0! is defined as 1.  n! is
-     * defined as the product of all the integers in {@code [1,n]}.
+     * Computes the {@code n}! (n factorial). 0! is defined as 1. n! is defined
+     * as the product of all the integers in {@code [1,n]}.
      *
      * Requires: {@code n >= 0}
      *

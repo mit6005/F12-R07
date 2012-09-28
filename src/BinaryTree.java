@@ -1,8 +1,8 @@
 import java.util.List;
 
 /**
- * A binary tree with a left child, right child, and ability to convert to in- or
- * pre-order list representations.
+ * A binary tree with a left child, right child, and ability to convert to in-
+ * or pre-order list representations.
  * @param <E> Type of elements stored.
  */
 public interface BinaryTree<E> {
@@ -13,23 +13,22 @@ public interface BinaryTree<E> {
     public E getValue();
 
     /**
-     * Gets the left subtree.  This is an "optional" method, meaning it may
-     * throw an {@link UnsupportedOperationException}.
+     * Gets the left subtree. This is an "optional" method, meaning it may throw
+     * an {@link UnsupportedOperationException}.
      * @return The right subtree.
      */
     public BinaryTree<E> getLeft();
 
     /**
-     * Gets the right subtree.  This is an "optional" method, meaning it may
+     * Gets the right subtree. This is an "optional" method, meaning it may
      * throw an {@link UnsupportedOperationException}.
      * @return The right subtree.
      */
     public BinaryTree<E> getRight();
 
     /**
-     * Creates and returns an in-order list of the elements in this tree (in order
-     * is left child, parent, right child).
-     * @return The in-order list of elements.
+     * Creates and returns an in-order list of the elements in this tree.
+     * @return The pre-order list of elements.
      */
     public List<E> getInOrder();
 
